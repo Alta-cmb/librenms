@@ -1,0 +1,12 @@
+os: altalabs-wifi
+text: 'Alta Labs AP'
+type: wireless
+icon: altalabs
+mib_dir: altalabs
+over:
+    - { graph: device_bits, text: 'Device Traffic' }
+    - { graph: device_wireless_clients, text: 'Connected Clients' }
+discovery:
+    - sysDescr_regex:
+        - '/^Alta AP/'
+

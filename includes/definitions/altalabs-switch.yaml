@@ -1,0 +1,10 @@
+os: alta-switch
+text: 'Alta Labs Switch'
+type: network
+group: altalabs
+icon: altalabs
+mib_dir: altalabs
+discovery:
+    - sysDescr_regex:
+        - '/^Alta S/'
+
